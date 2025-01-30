@@ -15,7 +15,7 @@ class Product {
 
     // Simple string representation of the product
     public String toString() {
-        return id + " - " + name + " ($" + price + ")";
+        return id + " - " + name + " (" + price + ")";
     }
 }
 
@@ -110,32 +110,32 @@ public class OnlineShop {
     // Initialize sample products
     static void setupSampleProducts() {
         // Clothing
-        inventory.add(new Product("C1", "Cotton T-shirt", 19.99));
-        inventory.add(new Product("C2", "Slim Fit Jeans", 49.99));
-        inventory.add(new Product("C3", "Running Shoes", 79.99));
-        inventory.add(new Product("C4", "Hooded Sweatshirt", 39.99));
-        inventory.add(new Product("C5", "Winter Jacket", 89.99));
+        inventory.add(new Product("C1", "Cotton T-shirt", 1659));
+        inventory.add(new Product("C2", "Slim Fit Jeans", 4149));
+        inventory.add(new Product("C3", "Running Shoes", 6639));
+        inventory.add(new Product("C4", "Hooded Sweatshirt", 3319));
+        inventory.add(new Product("C5", "Winter Jacket", 7469));
 
         // Electronics
-        inventory.add(new Product("E1", "Wireless Earbuds", 129.99));
-        inventory.add(new Product("E2", "Smartphone", 699.99));
-        inventory.add(new Product("E3", "Laptop", 999.99));
-        inventory.add(new Product("E4", "Smart Watch", 249.99));
-        inventory.add(new Product("E5", "Bluetooth Speaker", 79.99));
+        inventory.add(new Product("E1", "Wireless Earbuds", 10789));
+        inventory.add(new Product("E2", "Smartphone", 58099));
+        inventory.add(new Product("E3", "Laptop", 829993));
+        inventory.add(new Product("E4", "Smart Watch", 20749));
+        inventory.add(new Product("E5", "Bluetooth Speaker", 6639));
 
         // Home & Living
-        inventory.add(new Product("H1", "Coffee Maker", 59.99));
-        inventory.add(new Product("H2", "Bed Sheets Set", 45.99));
-        inventory.add(new Product("H3", "Table Lamp", 29.99));
-        inventory.add(new Product("H4", "Storage Containers", 19.99));
-        inventory.add(new Product("H5", "Bath Towel Set", 34.99));
+        inventory.add(new Product("H1", "Coffee Maker", 4979));
+        inventory.add(new Product("H2", "Bed Sheets Set", 3819));
+        inventory.add(new Product("H3", "Table Lamp", 2489));
+        inventory.add(new Product("H4", "Storage Containers", 1659));
+        inventory.add(new Product("H5", "Bath Towel Set", 2909));
 
         // Sports & Outdoors
-        inventory.add(new Product("S1", "Yoga Mat", 25.99));
-        inventory.add(new Product("S2", "Dumbbell Set", 89.99));
-        inventory.add(new Product("S3", "Tennis Racket", 59.99));
-        inventory.add(new Product("S4", "Camping Tent", 149.99));
-        inventory.add(new Product("S5", "Basketball", 29.99));
+        inventory.add(new Product("S1", "Yoga Mat", 2159));
+        inventory.add(new Product("S2", "Dumbbell Set", 7469));
+        inventory.add(new Product("S3", "Tennis Racket", 4979));
+        inventory.add(new Product("S4", "Camping Tent", 12449));
+        inventory.add(new Product("S5", "Basketball", 2489));
     }
 
     // Show login/register menu
